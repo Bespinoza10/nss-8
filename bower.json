@@ -1,0 +1,20 @@
+{
+  "name": "nss-8",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Bespinoza10/nss-8",
+  "authors": [
+    "Brandon Espinoza <espinozab100@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4"
+  }
+}
