@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Montserrat);
+
+/* GENERAL CSS */
+h1, h2, h3, p{
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Open Sans Condensed', sans-serif; */
+  text-align:center;
+}
+
+nav.navbar-default{
+  background: #fff;
+  border-bottom: 2px solid #000;
+}
+
+hr{
+  background: #ffa300;
+  width: 50px;
+  height: 5px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HOME */
+#home{
+  background-image: url('../img/squad.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+}
+
+.logo{
+  margin-top: 200px;
+}
+
+/* ABOUT US  */
+
+.abouth1{
+  color: #000;
+  line-height: 48px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 28px 0;
+}
+
+.proflie{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+
+/* OUR SPECIALTIES */
+
+
+#skills{
+  margin-top: 200px;
+}
+.skillLogo{
+  margin-top: 100px;
+}
+
+.img-logos{
+  width: 100px;
+  height: 90px;
+}
+
+
+/* WHO ARE WE */
+#whoRwe{
+  margin-top: 200px;
+}
+
+.fa.social{
+  font-size: 40px;
+  color: #2F3238;
+}
+
+.social:hover{
+  font-size: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.classmates{
+  margin-top: 100px;
+}
