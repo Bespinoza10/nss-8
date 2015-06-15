@@ -24,71 +24,106 @@ hr{
   margin-right: auto;
 }
 
-/* HOME */
-#home{
-  background-image: url('../img/squad.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  width: 100%;
-  height: 800px;
+
+
+
+
+  /* HOME */
+  #home{
+    background-image: url('../img/squad.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+
+  }
+
+  .mainlogo{
+    display: block;
+    margin-top: 200px;
+  }
+
+  /* ABOUT US  */
+
+  .abouth1{
+    color: #000;
+    line-height: 48px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 28px 0;
+  }
+
+  .proflie{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 250px;
+  }
+
+
+  /* OUR SPECIALTIES */
+
+  #skills{
+    margin-top: 200px;
+  }
+  .skillLogo{
+    margin-top: 100px;
+  }
+
+  .img-logos{
+    width: 300px;
+    height: 90px;
+  }
+
+
+  /* WHO ARE WE */
+  #whoRwe{
+    margin-top: 200px;
+  }
+
+  .fa.social{
+    font-size: 40px;
+    color: #2F3238;
+  }
+
+  .social:hover{
+    font-size: 50px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .classmates{
+    margin-top: 100px;
+  }
+
+  .imgMargin{
+    margin-top: 20px;
+  }
+
+#contact{
+ background: none;
 }
 
-.logo{
-  margin-top: 200px;
+.cont{
+  margin-top: 150px;
+}
+button.btn-default{
+  background: #2F3238;
+  color:#fff;
+  border: none;
+  border-radius: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* ABOUT US  */
-
-.abouth1{
-  color: #000;
-  line-height: 48px;
-  font-size: 25px;
-  letter-spacing: 2px;
-  font-family: 'Montserrat', sans-serif;
-  margin: 28px 0;
-}
-
-.proflie{
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
-  margin-top: 250px;
-}
+button.btn-default:hover {
+  background: #ffa300;
+  font-size: 30px;
+  }
 
 
-/* OUR SPECIALTIES */
-
-
-#skills{
-  margin-top: 200px;
-}
-.skillLogo{
-  margin-top: 100px;
-}
-
-.img-logos{
-  width: 100px;
-  height: 90px;
-}
-
-
-/* WHO ARE WE */
-#whoRwe{
-  margin-top: 200px;
-}
-
-.fa.social{
-  font-size: 40px;
-  color: #2F3238;
-}
-
-.social:hover{
-  font-size: 50px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.classmates{
-  margin-top: 100px;
+button.btn{
+  border-radius: none;
 }
